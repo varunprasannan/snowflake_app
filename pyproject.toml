@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "task1"
+version = "0.1.0"
+description = ""
+authors = ["Varun Prasannan <vprasannan4@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.22.0"
+snowflake-connector-python = "^3.0.3"
+pyarrow = "^12.0.0"
+pandas = "^2.0.1"
+toml = "^0.10.2"
+matplotlib = "^3.7.1"
+numpy = "^1.24.3"
+seaborn = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
